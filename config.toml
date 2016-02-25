@@ -1,0 +1,17 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "TPVSports Says Hello!"
+theme = "tpvs16"
+
+[permalinks]
+  event = "/:year/:month/:day/:slug"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "tpvsports.net's Awesome Hugo Site"
+  author = "Sir Lawrence Davis"
+  PublishDate = "2006-01-02"
+  soundcloud = ""
