@@ -1,0 +1,7 @@
+<li>
+  <div class="embed media">
+    {{ partial "soundcloud.html" . }}
+  </div>
+  <time> {{ dateFormat "Jan 2, 2006" .PublishDate }}</time> || <a href="{{ .Permalink }}">{{ .Title }}</a>
+</li>
+  

@@ -1,0 +1,11 @@
+{{ range .Data.Pages }}
+  {{ if eq .Type "page" }}
+    <h1>
+      <span class="o-mh__title">TPVS</span> {{ .Title }}
+    </h1>
+  {{ else }}
+    <h1>
+      <span class="o-mh__title">TPVS</span> {{ .Section }}
+    </h1>
+  {{ end }}
+{{ end }}

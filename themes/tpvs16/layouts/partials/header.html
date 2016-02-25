@@ -1,0 +1,21 @@
+<!doctype html>
+  <html class="canvas" lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>{{ .Title }}</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="apple-touch-icon" href="apple-touch-icon.png">
+              <!-- Place favicon.ico in the root directory -->
+      <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="page">
+      <header id="top" class="top page__head" role="banner">
+        <div class="c-logo" data-ui-component="logo" data-layout="u-2/5@lg">
+          The People's Voice Sports
+        </div>
+        <nav class="o-nav" role="navigation" data-layout="u-3/5@lg">
+          {{ partial "nav.html" . }}
+        </nav>
+      </header>

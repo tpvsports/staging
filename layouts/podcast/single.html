@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+  <h1>
+    <span class="o-mh__title">TPVS</span> {{ upper .Section }}
+  </h1>
+  <h2>{{ .Title }}</h2>
+  <div class="colophon">Posted by: {{ .Params.author }} 
+    <time> {{ .Params.publishdate }}</time>
+  </div>
+  <div class="description">
+    {{ .Description }}
+  </div>
+  <div class="embed media">
+    {{ partial "soundcloud.html" . }}
+  </div>
+{{ partial "footer.html" . }}
