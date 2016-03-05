@@ -14,7 +14,7 @@ module.exports = function(grunt) {
           require('postcss-responsive-type')(),
           require('lost')(),
           require('postcss-discard-comments')(),
-          // require('cssnano')(), // minify the result
+          require('cssnano')(), // minify the result
           require("postcss-browser-reporter")()
         ]
       },
