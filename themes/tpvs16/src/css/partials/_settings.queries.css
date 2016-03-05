@@ -1,0 +1,5 @@
+@custom-media --x-small screen and (width <= 30rem);
+@custom-media --small screen and (width <= 45rem);
+@custom-media --medium screen and (width >= 46rem);
+@custom-media --large screen and (width >= 64rem);
+@custom-media --x-large screen and (width >= 76rem);

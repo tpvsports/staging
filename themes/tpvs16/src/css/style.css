@@ -1,0 +1,82 @@
+/*!  
+=================================
+Website by RJ Lewis 
+Created 2015.12.10
+Last updated 2015.12.11
+  - Build: RJLewisDesign/Sites/*****
+BG Pattern(***[http://subtlepatterns.com/?s=****])
+  Courtesy of: subtlepatterns.com
+=================================
+Contents:
+  01  Settings
+      - Global......Globally available variables and settings/config
+      - Colors......Manage theme specific color palette
+      - Queries.....Other media queries
+      - Responsive..Set up breakpoints
+  02  Tools
+      - Mixins......Global Mixins
+      - Grid........Grid Settings
+  03  Ground Zero | Generic Styles
+      - Sanitize...Sane browser defaults and variable fallbacks
+  04  Base: 
+      - Page........Page-level styles
+      - Headings....Heading styles
+      - Type........Miscellaneous element styles
+      - Links.......Hyperlink styles
+      - Lists.......List styles
+      - Images......Image defaults
+      - Quotes......Styling for blockquotes, etc.
+  05  Components
+      - Page Header.Global header styles
+      - Layouts.....Main body styles (page types)
+      - Page Footer.Global footer styles
+      - Site Nav....Main navigation
+      - Bands.......Full width page bands
+      - Buttons.....Button styles
+      - Boxes.......Box styles
+      - Page List...Styling for printed collection lists
+  06  Trumps
+      - Responsive..Grid helper classes
+=================================
+*/
+
+/*@import settings*/
+  @import 'partials/_settings.global';
+  /*@import 'partials/_settings.colors';*/
+  /*@import 'partials/_settings.responsive';*/
+  @import 'partials/_settings.queries';
+
+/*@import tools*/
+  @import 'partials/_tools.mixins';
+
+/*@import generic*/
+  @import 'partials/_ground-zero.sanitize';
+   
+/*@import base*/
+  @import 'partials/_base.page'; 
+  @import 'partials/_base.headings'; 
+  /*@import 'partials/_base.type';*/ 
+  @import 'partials/_base.links';
+  @import 'partials/_base.lists';
+  @import 'partials/_base.images';
+  /*@import 'partials/_base.quotes';*/
+
+/*@import objects*/
+  @import 'partials/_objects.article';
+  @import 'partials/_objects.grid';
+
+
+/*@import components*/
+  /*@import 'partials/_components.bands';*/
+  /*@import 'partials/_components.buttons';*/
+  @import 'partials/_components.masthead';
+  /*@import 'partials/_components.page-foot';*/
+  @import 'partials/_components.page-head';
+  @import 'partials/_components.page-list';
+  @import 'partials/_components.site-nav';
+  @import 'partials/_components.taxonomies';
+
+/*@import trumps*/
+  @import 'partials/_trumps.modification';
+  /*@import 'partials/_trumps.responsive';*/
+  @import 'partials/_trumps.twitter';

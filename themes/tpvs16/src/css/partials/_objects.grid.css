@@ -1,0 +1,53 @@
+.canvas, .page {
+  lost-utility: clearfix;
+}
+.page__head, .page__body, .page__footer {
+  lost-center: 75rem;
+  padding: var(--spacing-unit--md);
+}
+.c-logo {
+  lost-column: 4/5;
+
+  @media (--medium) {
+    lost-column: 6/8;
+  }
+  @media (--large) {
+    lost-column: 2/5;
+  }
+}
+.o-nav {
+  lost-column: 1/5;
+
+  @media (--medium) { 
+    lost-column: 2/8;
+  }
+  @media (--large) {
+    lost-column: 3/5;
+  }
+}
+.o-masthead {
+  lost-column: 7/8;
+
+  @media (--medium) {
+    lost-column: 2/3;
+  }
+}
+.c-main__content {
+  lost-column: 1;
+
+  @media (--medium) {
+    lost-column: 2/3;
+  }
+
+  &--block {
+    lost-utility: clearfix;
+    lost-column: 1;
+  }
+}
+.c-main__sidebar {
+  lost-column: 1;
+  
+  @media (--medium) {
+    lost-column: 1/3;
+  }
+}

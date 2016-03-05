@@ -1,0 +1,14 @@
+.o-article__header, .o-article__colophon, .o-article__description {
+  lost-utility: clearfix;
+  lost-column: 1;
+}
+.o-article__header {
+  color: var(--alt-two-color);
+}
+.o-article__colophon {
+  font-size: 75%;
+  padding-bottom: 10px;
+}
+.o-article__description {
+  padding: 8px;
+}

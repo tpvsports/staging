@@ -1,0 +1,8 @@
+.page__head {
+  padding-bottom: 0;
+}
+.c-logo {
+  font-family: var(--heading-font-family);
+  font-size: responsive 1.75rem 2.1rem;
+  font-range: 20rem 80rem;
+}

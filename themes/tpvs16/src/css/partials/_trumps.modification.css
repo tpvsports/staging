@@ -1,0 +1,5 @@
+.subheading {
+  font-family: var(--root-font-family);
+  font-weight: var(--root-font-weight);
+  margin: 1.2rem auto;
+}

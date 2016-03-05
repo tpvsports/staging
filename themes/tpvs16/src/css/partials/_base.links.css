@@ -1,0 +1,12 @@
+a {
+  border-bottom: .5px solid var(--root-link-color);
+  color: var(--root-link-color); /*b0b0b1*/
+  padding: 0 1px 1px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+
+  &:hover {
+    border-bottom-color: var(--alt-one-color);
+    color: var(--alt-one-color);
+  }
+}

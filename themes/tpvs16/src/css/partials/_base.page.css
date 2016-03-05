@@ -1,0 +1,10 @@
+html, body {
+  height: 100%;
+  background-color: var(--root-background-color);
+  color: var(--root-color);
+  font-family: var(--root-font-family);
+  font-weight: var(--root-font-weight);
+  font-size: responsive .75rem 1.125rem;
+  font-range: 20rem 80rem;
+  overflow-x: hidden;
+}

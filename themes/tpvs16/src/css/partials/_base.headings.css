@@ -1,0 +1,24 @@
+h1 {
+  font-family: var(--heading-font-family:);
+  font-size: responsive 1.5rem 2.125rem;
+}
+h2 {
+  font-family: var(--heading-font-family:);
+  font-size: responsive 1.375rem 1.625rem;
+}
+h3 {
+  font-family: var(--heading-font-family:);
+  font-size: responsive 1rem 1.25rem;
+}
+h4 {
+  font-family: var(--heading-font-family:);
+  font-size: responsive 0.875rem 1rem;
+}
+h5 {
+  font-family: var(--heading-font-family:);
+  font-size: responsive 0.75rem .875rem;
+}
+h6 {
+  font-family: var(--heading-font-family:);
+  font-size: responsive 0.675rem 0.75rem;
+}

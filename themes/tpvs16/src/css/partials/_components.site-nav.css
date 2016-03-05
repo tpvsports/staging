@@ -1,0 +1,35 @@
+.o-nav {
+  @media (--large) {
+    border-top: .5px solid #838181;
+  }
+}
+.menubar {
+  text-align: right;
+}
+.menubar__item {
+  display: inline-block;
+}
+.menubar__item-target {
+  border-bottom: 0;
+  color: var(--root-link-color); /*b0b0b1*/
+  font-size: responsive 1.375rem 1.625rem;
+  padding: 0 0.625rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+
+  &:hover {
+    border-bottom-color: 0;
+    color: var(--alt-one-color);
+  }
+}
+@media (--large) {
+  .menubar__item-target::after {
+    content: "\00b7";
+    margin-left: 12px;
+  }
+  .menubar__item:last-of-type .menubar__item-target::after {
+      content: "";
+      margin-left: 0;
+    }
+}

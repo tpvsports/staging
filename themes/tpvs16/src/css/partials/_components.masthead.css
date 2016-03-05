@@ -1,0 +1,37 @@
+.o-masthead {
+  background-color: rgba(217, 217, 217, 1);
+  color: var(--alt-two-color);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: responsive 1.5rem 3rem;
+  line-height: 2;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.o-flex-item.c-superscript {
+  font-size: 45%;
+  align-self: center;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+.o-masthead:before {
+  background-color: rgba(217, 217, 217, 1);
+  content: "";
+  position: absolute;
+  /* fill vertically */
+  bottom: 0;
+  right: 100%;
+  top: 0;
+  width: 9600px;
+}
+.o-mh__title {
+  font-family: var(--mastheading-font-family);
+  font-size: responsive 2.5rem 5rem;
+  padding-bottom: -5px;
+  padding-right: 20px;
+  text-shadow: 2px 2px 4px #969290;
+}

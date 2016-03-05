@@ -1,0 +1,44 @@
+.c-article-list__item {
+  font-size: 75%;
+  padding-bottom: 10px;
+}
+.c-article-list__colophon {
+  padding-top: 10px;
+
+  & i {
+    color: var(--alt-one-color);
+    padding-right: 2px;
+  }
+
+  & time {
+    margin-right: 18px;
+  }
+
+  &--archive {
+    padding-bottom: 15px;
+
+    & i {
+      color: var(--alt-one-color);
+      padding-right: 2px;
+    }
+
+    & time {
+      color: var(--alt-one-color);
+      margin-right: 18px;
+    }
+  }
+}
+.c-article-list__item--archive {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.c-section-list {
+  font-size: responsive 1rem 1.5rem;
+
+  &  time {
+    /*font-size: responsive 0.85rem 1rem;*/
+    line-height: 2;
+    margin-left: 23px;
+    margin-top: 10px;
+  }
+}

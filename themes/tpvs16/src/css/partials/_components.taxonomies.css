@@ -1,0 +1,7 @@
+.c-tags {
+  margin-left: 20px;
+
+  & li a {
+    text-transform: capitalize;
+  }
+}

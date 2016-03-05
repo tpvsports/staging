@@ -4,7 +4,7 @@ title = "TPVSports Says Hello!"
 theme = "tpvs16"
 
 [permalinks]
-  event = "/:year/:month/:day/:slug"
+  podcast = "/:year/:month/:day/:slug"
 
 [taxonomies]
   category = "categories"
@@ -12,6 +12,23 @@ theme = "tpvs16"
 
 [params]
   description = "tpvsports.net's Awesome Hugo Site"
+  episode = "One"
   author = "Sir Lawrence Davis"
   PublishDate = "2006-01-02"
   soundcloud = ""
+
+[[menu.main]]
+  name = "home"
+  identifier = "home"
+  title = "home"
+  weight = 100
+  url = "/"
+
+[[menu.main]]
+  name = "archive"
+  identifier = "archive"
+  title = "archive"
+  type = "archive"
+  weight = 1
+  url = "/podcast"
+  slug = "/archive"

@@ -1,0 +1,42 @@
+/* ********** @section variables ********** */
+  :root {
+    --root-background-color: rgba(48, 36, 37, 1);
+    --root-box-sizing: border-box;
+    --root-color: rgba(255, 255, 255, 1);
+    --root-cursor: default;
+    --root-font-size: 100;
+    --root-line-height: 1.2;
+    --root-link-color: rgba(176, 176, 177, 1);
+    --root-font-size: 16px;
+    --root-font-family: 'Lato', sans-serif;
+    --root-font-weight: 300;
+
+    --alt-one-color: rgba(240, 223, 27, 1);
+    --alt-two-color: rgba(217, 89, 2, 1);
+    --alt-one-font-weight: 400;
+    --alt-two-font-weight: 700;
+    
+    --heading-font-family: 'Arya', sans-serif;
+    --mastheading-font-family: 'Emblema One', cursive;
+
+    /* ********** @section elements ********** */
+      --anchor-text-decoration: none;
+      --form-element-background-color: transparent;
+      --media-element-vertical-align: middle;
+      --nav-list-style: none;
+    /* @close elements */
+
+    /* ********** @section selection ********** */
+      --selection-background-color: rgba(226, 110, 0, 1);
+      --selection-color: var(--root-color);
+      --selection-text-shadow: rgba(51, 51, 51, 1);
+    /* @close selection */
+
+    /* ********** @section grid ********** */
+      --grid-gutter-width: 1.875rem;
+      --spacing-unit--sm: 0.625rem; /*10px*/
+      --spacing-unit--md: 1.25rem; /*20px*/
+      --spacing-unit--lg: 1.875rem; /*30px*/
+    /* @close grid */
+  }
+/* @close variables */
