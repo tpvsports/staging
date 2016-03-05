@@ -1,11 +1,13 @@
 /*!  
 =================================
 Website by RJ Lewis 
-Created 2015.12.10
-Last updated 2015.12.11
-  - Build: RJLewisDesign/Sites/*****
-BG Pattern(***[http://subtlepatterns.com/?s=****])
-  Courtesy of: subtlepatterns.com
+Created 2016.2.26
+Last updated 2016.3.4
+=================================
+*/
+/*
+=================================
+- Build: RJLewisDesign/Sites/tpvsports
 =================================
 Contents:
   01  Settings
@@ -37,6 +39,7 @@ Contents:
       - Page List...Styling for printed collection lists
   06  Trumps
       - Responsive..Grid helper classes
+      - Modify......Modifyer Classes
 =================================
 */
 
@@ -77,6 +80,6 @@ Contents:
   @import 'partials/_components.taxonomies';
 
 /*@import trumps*/
-  @import 'partials/_trumps.modification';
+  @import 'partials/_trumps.modify';
   /*@import 'partials/_trumps.responsive';*/
   @import 'partials/_trumps.twitter';

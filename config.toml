@@ -28,7 +28,6 @@ theme = "tpvs16"
   name = "archive"
   identifier = "archive"
   title = "archive"
-  type = "archive"
   weight = 1
   url = "/podcast"
   slug = "/archive"
