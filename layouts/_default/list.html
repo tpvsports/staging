@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+  {{ range .Data.Pages }}
+    {{ if eq .Type "page" }}
+      <h1>
+        <span class="o-mh__title">TPVS</span> {{ .Title }}
+      </h1>
+    {{ else }}
+      <h1>
+        <span class="o-mh__title">TPVS</span> {{ .Section }}
+      </h1>
+    {{ end }}
+  {{ end }}
+
+  {{ $data := .Data }}
+    {{ range $key,$value := .Data.Terms.ByCount }}
+    <h2>
+      <a href="{{ $data.Plural }}/{{ $value.Name | urlize }}">{{ $value.Name }}</a> {{ $value.Count }}</h2>
+    <ul>
+      {{ range $value.Pages.ByDate }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  {{ end }}
+
+{{ partial "footer.html" . }}

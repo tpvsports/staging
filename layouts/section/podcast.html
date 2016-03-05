@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+  <main class="page__body" role="main">
+    <header class="body-header">
+      <h1 class="o-masthead" data-layout="u-2/3@lg">
+        <span class="o-mh__title">TPVS</span> Archives
+      </h1>
+    </header>
+  <section class="c-main__content--block" data-layout="u-1@lg">
+    {{ range .Data.Pages.GroupByDate "2006" }}
+      <h2 class="subheading">{{ .Key }}</h2>
+        <ul class="o-list">
+          {{ range .Pages }}
+            {{ .Render "archive"}}
+          {{ end }}
+        </ul>
+    {{ end }}
+  </section>
+</main>
+
+{{ partial "footer.html" . }}

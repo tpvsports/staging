@@ -1,0 +1,10 @@
+<ul class="menubar">
+  {{ $currentNode := . }}
+  {{ range .Site.Menus.main }}
+    <li class="menubar__item{{if $currentNode.HasMenuCurrent "main" . }} current{{end}}">
+      <a class="menubar__item-target" href="{{.URL}}">
+        {{ .Pre }}<span>{{ .Name }}</span>
+      </a>
+    </li>
+  {{ end }}
+</ul>

@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+  <main class="page__body" role="main">
+    <header class="body-header">
+      <h1 class="o-masthead" data-layout="u-2/3@lg">
+        <span class="o-mh__title">TPVS</span> {{ .Title }}
+      </h1>
+    </header>
+  <section class="c-main__content" data-layout="u-2/3@lg">
+    <ul class="o-list c-section-list">
+      {{ range .Data.Pages }}
+          {{ .Render "section-list" }} 
+      {{ end }}
+    </ul>
+  </section>
+  <aside class="c-main__sidebar" data-layout="u-1/3@lg">
+    <h2 class="subheading">Sports</h2>
+    <ul class="o-list c-tags">
+      {{ if isset .Site.Taxonomies "tags" }}
+        {{ if not (eq (len .Site.Taxonomies.tags) 0) }}
+          {{ range $name, $items := .Site.Taxonomies.tags }}
+          <li class="category-list-item">
+              <a class="category-list-link" href="/tags/{{ $name | urlize | lower }}">{{ $name }}
+              </a>
+              <span class="category-list-count">&nbsp;({{ len $items }})</span>
+          </li>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </ul>
+  </aside>
+</main>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+  <main class="page__body" role="main">
+    <header class="body-header">
+      <h1 class="o-masthead" data-layout="u-2/3@lg">
+        <span class="o-mh__title">TPVS</span> {{ .Title }}
+      </h1>
+    </header>
+    <section class="c-main__content--block" data-layout="u-2/3@lg">
+      {{ .Content }}
+    </section>
+  </main>
+{{ partial "footer.html" . }}
