@@ -1,5 +1,5 @@
 +++
-title = "TPVSports – Hugo Says Hello!"
-description = "tpvsports.net's Awesome Hugo Site"
+title = "TPVSports + Hugo Says Hello!"
+description = ""
 menu = "main"
 +++
