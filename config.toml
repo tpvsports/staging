@@ -1,6 +1,6 @@
-baseurl = "/"
+baseurl = "http://www.tpvsports.net"
 languageCode = "en-us"
-title = "TPVSports Says Hello!"
+title = "The People's Voice Sports Podcast"
 theme = "tpvs16"
 
 [permalinks]
@@ -11,7 +11,7 @@ theme = "tpvs16"
   tag = "tags"
 
 [params]
-  description = "tpvsports.net's Awesome Hugo Site"
+  description = "Welcome to The People's Voice Sports Podcast Website"
   episode = "One"
   author = "Sir Lawrence Davis"
   PublishDate = "2006-01-02"
