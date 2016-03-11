@@ -7,10 +7,10 @@
   "description": "tpvsports.net's Awesome Hugo Site",
   "episode": "1",
   "publishdate": "2016-02-03",
+  "slug": "ep1-show-title",
+  "soundcloud": "245753011",
   "tags": [
     "football"
   ],
-  "title": "Episode One Show Title",
-  "slug": "ep1-show-title",
-  "soundcloud": "245753011"
+  "title": "Episode One Show Title"
 }

@@ -1,33 +1,41 @@
 baseurl = "http://www.tpvsports.net"
-languageCode = "en-us"
-title = "The People's Voice Sports Podcast"
+languagecode = "en-us"
+pluralizelisttitles = false
 theme = "tpvs16"
-
-[permalinks]
-  podcast = "/:year/:month/:day/:slug"
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-
+title = "The People's Voice Sports Podcast"
+[blackfriday]
+AngledQuotes = false
+Extensions = ""
+ExtensionsMask = ""
+Fractions = true
+HrefTargetBlank = false
+LatexDashes = true
+PlainIDAnchors = false
+SmartDashes = true
+Smartypants = true
+SourceRelativeLinksEval = false
+[[menu.main]]
+identifier = "archive"
+name = "archive"
+slug = "/archive"
+title = "archive"
+url = "/podcast"
+weight = 1
+[[menu.main]]
+identifier = "home"
+name = "home"
+title = "home"
+url = "/"
+weight = 100
 [params]
-  description = "Welcome to The People's Voice Sports Podcast Website"
-  episode = "One"
-  author = "Sir Lawrence Davis"
-  PublishDate = "2006-01-02"
-  soundcloud = ""
-
-[[menu.main]]
-  name = "home"
-  identifier = "home"
-  title = "home"
-  weight = 100
-  url = "/"
-
-[[menu.main]]
-  name = "archive"
-  identifier = "archive"
-  title = "archive"
-  weight = 1
-  url = "/podcast"
-  slug = "/archive"
+PublishDate = "2006-01-02"
+author = "Sir Lawrence Davis"
+description = "Welcome to The People's Voice Sports Podcast Website"
+episode = "One"
+soundcloud = ""
+[permalinks]
+podcast = "/:year/:month/:day/:slug"
+[sitemap]
+ChangeFreq = ""
+Filename = "sitemap.xml"
+Priority = "-1"
