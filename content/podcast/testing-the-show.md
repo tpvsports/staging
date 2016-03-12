@@ -1,6 +1,6 @@
 ---
 title: Testing the Show
-slug: 2016-03-04-testing-the-show
+slug: testing-the-show
 author: Sir Lawrence Davis
 episode: 2
 soundcloud: "245753011"
@@ -9,6 +9,6 @@ categories: []
 tags: []
 cmsUserSlug: ""
 date: now
-publishdate: 2016-03-11T00:00:00-06:00
+publishdate: 2016-03-11T06:00:00.000Z
 ---
 
