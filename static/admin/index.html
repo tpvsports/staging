@@ -12,19 +12,24 @@
 
     <link rel="stylesheet" href="//cms.netlify.com/assets/cms.css" />
     <!-- Include a CMS specific stylesheet here -->
-
+    <style type="text/css">
+      .inline {
+        display: inline-block !important;
+      }
+    </style>
     <base href="/admin/">
   </head>
   <body>
     <script type="text/x-handlebars" data-template-name='cms/preview/podcast'>
       <h3 style="margin-bottom: 8px;">{{cms-preview field='title'}}</h3>
       <div class="">URL: https://tpvsports.net/{{cms-preview field='slug'}}<br><small>Recommended URL Slug is: <span style="background-color: rgba(212, 212, 212, 0.2); padding: 0 2px;">show-title</span></small></div>
-      <div class=""> Episode # {{cms-preview field='episode'}} is hosted by: {{cms-preview field='author'}}</div>
+      <div class=""> Episode # <span class="inline">{{cms-preview field='episode'}}</span> is hosted by: <span class="inline">{{cms-preview field='author'}}</span></div>
       <div class="">
         <p>Short description:</p>
         {{cms-preview field='description'}}
       </div>
       <div>
+        Episode preview: 
         <iframe 
           width="100%" 
           height="166" 
