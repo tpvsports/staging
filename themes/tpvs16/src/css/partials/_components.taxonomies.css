@@ -5,3 +5,6 @@
     text-transform: capitalize;
   }
 }
+.c-tags__tag {
+  margin-bottom: 5px;
+}

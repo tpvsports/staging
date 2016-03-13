@@ -4,9 +4,7 @@ pluralizelisttitles = false
 theme = "tpvs16"
 title = "The People's Voice Sports Podcast"
 [blackfriday]
-AngledQuotes = false
-Extensions = ""
-ExtensionsMask = ""
+AngledQuotes = true
 Fractions = true
 HrefTargetBlank = false
 LatexDashes = true

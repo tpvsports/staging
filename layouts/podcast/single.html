@@ -21,7 +21,7 @@
       <h2 class="subheading">Sports</h2>
       <ul class="o-list c-tags">
         {{ range .Params.tags }}
-          <li>
+          <li class="o-list__item c-tags__tag">
             <a href="/tags/{{ . | urlize }}">{{ . }}</a> 
           </li>
         {{ end }}
