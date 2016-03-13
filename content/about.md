@@ -1,7 +1,8 @@
 ---
 title: about
-description: "Welcome to the The People's Voice Sports Podcast Show."
 menu: main
+description: "Welcome to the The People's Voice Sports Podcast Show."
+cmsUserSlug: about
 date: 2016-03-11T06:00:00.000Z
 ---
 
@@ -9,6 +10,6 @@ date: 2016-03-11T06:00:00.000Z
 
 ### Hosted by: Sir Lawrence Davis   
 
---
+---
 
 This podcast show is for the people! The people who dont have a voice. We often hear alot of this sport analyst on TV, radio, and other sports news outlets. This podcast will invite whoever wants to talk and debate sports. No matter who you are!
