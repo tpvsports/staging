@@ -53,6 +53,33 @@
       </div>
     </script>
 
+    <script type="text/x-handlebars" data-template-name='cms/widgets/tags-control'>
+      {{input value=raw_value}}
+    </script>
+    <script type="text/x-handlebars" data-template-name='cms/widgets/category-preview'>
+      {{#each tag in widget.value}}
+        <span class="tag">{{category}}</span>
+      {{/each}}
+    </script>
+    <script type="text/x-handlebars" data-template-name='cms/widgets/tags-preview'>
+      {{#each tag in widget.value}}
+        <span class="tag">{{tag}}</span>
+      {{/each}}
+    </script>
+
+    <script>
+      CMS.WidgetControl("tags", {
+        init: function() {
+          this._super();
+          this.set("raw_value", (this.get("widget.value") || []).join(", "));
+        },
+        raw_value: null,
+        setWidgetValue: function() {
+          this.set("widget.value", (this.get("raw_value").split(",").map(function(e) { return e.trim()})))
+        }.observes("raw_value")
+      });
+      </script>
+
     <script src="//cms.netlify.com/assets/vendor.js"></script>
     <script src="//cms.netlify.com/assets/cms.js"></script>
   </body>
