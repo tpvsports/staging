@@ -23,6 +23,16 @@
     <base href="/admin/">
   </head>
   <body>
+    <script type="text/x-handlebars" data-template-name='cms/widgets/tags-control'>
+      {{input value=raw_value}}
+    </script>
+
+    <script type="text/x-handlebars" data-template-name='cms/widgets/tags-preview'>
+      {{#each tag in widget.value}}
+        <span class="tag">{{tag}}</span>
+      {{/each}}
+    </script>
+
     <script type="text/x-handlebars" data-template-name='cms/preview/podcast'>
       <h3>Content Preview</h3>
       <h4 style="margin-bottom: 0;">{{cms-preview field='title'}}</h4>
@@ -51,15 +61,6 @@
           >
         </iframe>
       </div>
-    </script>
-
-    <script type="text/x-handlebars" data-template-name='cms/widgets/tags-control'>
-      {{input value=raw_value}}
-    </script>
-    <script type="text/x-handlebars" data-template-name='cms/widgets/tags-preview'>
-      {{#each tag in widget.value}}
-        <span class="tag">{{tag}}</span>
-      {{/each}}
     </script>
 
     <script>
