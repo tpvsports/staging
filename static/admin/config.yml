@@ -16,7 +16,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Episode", name: "episode", widget: "number"}
       - {label: "Soundcloud Embed", name: "soundcloud", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "string"}
       - {label: "Description", name: "description", widget: "markdown"}     
     meta: # Meta data fields. Just like fields, but without any preview element
       - {label: "Categories", name: "categories", widget: "tags"}
