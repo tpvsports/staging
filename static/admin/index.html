@@ -20,17 +20,12 @@
         color: rgba(131, 129, 129, 1);
       }
     </style>
+    <script>window.CMS_ENV = "{{ site.cms }}";</script>
     <base href="/admin/">
   </head>
   <body>
     <script type="text/x-handlebars" data-template-name='cms/widgets/tags-control'>
       {{input value=raw_value}}
-    </script>
-
-    <script type="text/x-handlebars" data-template-name='cms/widgets/tags-preview'>
-      {{#each tag in widget.value}}
-        <span class="tag">{{tag}}</span>
-      {{/each}}
     </script>
 
     <script type="text/x-handlebars" data-template-name='cms/preview/podcast'>
@@ -74,7 +69,7 @@
           this.set("widget.value", (this.get("raw_value").split(",").map(function(e) { return e.trim()})))
         }.observes("raw_value")
       });
-      </script>
+    </script>
 
     <script src="//cms.netlify.com/assets/vendor.js"></script>
     <script src="//cms.netlify.com/assets/cms.js"></script>
