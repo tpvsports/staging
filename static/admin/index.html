@@ -20,14 +20,17 @@
         color: rgba(131, 129, 129, 1);
       }
     </style>
-    <script>
-      window.CMS_ENV = "{{ site.cms }}";
-    </script>
     <base href="/admin/">
   </head>
   <body>
     <script type="text/x-handlebars" data-template-name='cms/widgets/tags-control'>
       {{input value=raw_value}}
+    </script>
+
+    <script type="text/x-handlebars" data-template-name='cms/widgets/tags-preview'>
+      {{#each tag in widget.value}}
+        <span class="tag">{{tag}}</span>
+      {{/each}}
     </script>
 
     <script type="text/x-handlebars" data-template-name='cms/preview/podcast'>
@@ -59,7 +62,7 @@
         </iframe>
       </div>
     </script>
-
+    <script src="//cms.netlify.com/cms.js"></script>
     <script>
       CMS.WidgetControl("tags", {
         init: function() {
