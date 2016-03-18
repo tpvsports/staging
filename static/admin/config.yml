@@ -19,7 +19,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Description", name: "description", widget: "markdown"}  
       - {label: "Body (this does not show up on the podcast page)", name: "body", widget: "markdown"}   
     meta: # Meta data fields. Just like fields, but without any preview element
-      - {label: "Slug", name: "cmsUserSlug", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags (seperated by comma)", name: "tags", widget: "tags"}
   - name: "page"
@@ -32,5 +31,4 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"} 
     meta: # Meta data fields. Just like fields, but without any preview element
-      - {label: "Slug", name: "cmsUserSlug", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
