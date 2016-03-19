@@ -1,11 +1,14 @@
----
-title: about
-menu: main
-description: "Welcome to the The People's Voice Sports Podcast Show."
-cmsUserSlug: about
-date: 2016-03-11T06:00:00.000Z
----
++++
+cmsUserSlug = "about"
+date = "2016-03-11T06:00:00+00:00"
+description = "Welcome to the The People's Voice Sports Podcast Show."
+draft = false
+title = "about"
+type = "page"
+[menu.main]
+weight = 101
 
++++
 ## Welcome to the The People's Voice Sports Podcast Show.   
 
 ### Hosted by: Sir Lawrence Davis   
