@@ -18,13 +18,13 @@ name = "archive"
 slug = "/archive"
 title = "archive"
 url = "/podcast"
-weight = 1
+weight = 2
 [[menu.main]]
 identifier = "home"
 name = "home"
 title = "home"
 url = "/"
-weight = 100
+weight = 3
 [params]
 PublishDate = "2006-01-02"
 author = "Sir Lawrence Davis"

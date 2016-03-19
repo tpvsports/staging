@@ -6,7 +6,7 @@ draft = false
 title = "about"
 type = "page"
 [menu.main]
-weight = 101
+weight = 1
 
 +++
 ## Welcome to the The People's Voice Sports Podcast Show.   
