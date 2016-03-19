@@ -1,5 +1,11 @@
+.inline {
+  display: inline-block;
+}
 .subheading {
   font-family: var(--root-font-family);
   font-weight: var(--root-font-weight);
   margin: 1.2rem auto;
+}
+.pad20 {
+  padding-right: 20px;
 }

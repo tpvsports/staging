@@ -73,7 +73,7 @@ Contents:
   /*@import 'partials/_components.bands';*/
   /*@import 'partials/_components.buttons';*/
   @import 'partials/_components.masthead';
-  /*@import 'partials/_components.page-foot';*/
+  @import 'partials/_components.page-foot';
   @import 'partials/_components.page-head';
   @import 'partials/_components.page-list';
   @import 'partials/_components.site-nav';

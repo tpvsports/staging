@@ -1,0 +1,9 @@
+.social {
+  font-size: responsive 2rem 2.5rem;
+  & a {
+    border-bottom: none;
+  }
+  @media (--large) {
+    text-align: right;
+  }
+}

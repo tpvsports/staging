@@ -1,5 +1,13 @@
   <footer class="top page__footer" role="banner">
-    {{ partial "copyright.html" . }}
+    <div class="copyright footer__half" data-layout="u-1/2@lg">
+      {{ partial "copyright.html" . }}
+    </div>
+    <div class="social footer__half" data-layout="u-1/2@lg">
+      {{ partial "socialize" . }}
+    </div>
+    <div class="footer_whole">
+      
+    </div>
   </footer>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script> 
