@@ -26,6 +26,7 @@
     "postcss-browser-reporter": "^0.4.0",
     "postcss-cssnext": "^2.4.0",
     "postcss-import": "^8.0.2",
+    "postcss-mixins": "^4.0.1",
     "postcss-nesting": "^2.3.0",
     "postcss-url": "^5.1.1",
     "sanitize.css": "^3.2.0"

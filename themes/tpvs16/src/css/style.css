@@ -76,6 +76,7 @@ Contents:
   @import 'partials/_components.page-foot';
   @import 'partials/_components.page-head';
   @import 'partials/_components.page-list';
+  @import 'partials/_components.slicknav';
   @import 'partials/_components.site-nav';
   @import 'partials/_components.taxonomies';
 

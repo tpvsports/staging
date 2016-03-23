@@ -53,6 +53,7 @@
 }
 .footer__half {
   lost-column: 1;
+  margin-bottom: 20px;
   
   @media (--medium) {
     lost-column: 1/2;

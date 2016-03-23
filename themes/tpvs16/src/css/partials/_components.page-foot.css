@@ -1,8 +1,15 @@
 .social {
   font-size: responsive 2rem 2.5rem;
+  text-align: center;
   & a {
     border-bottom: none;
   }
+  @media (--large) {
+    text-align: left;
+  }
+}
+.copyright {
+  text-align: center;
   @media (--large) {
     text-align: right;
   }

@@ -9,7 +9,7 @@ module.exports = function(grunt) {
           require("postcss-url")(), 
           require('postcss-responsive-type')(),
           require('postcss-cssnext')({browsers: 'last 1 version, > 5%'}),
-          
+          require("postcss-mixins")(),
           require("postcss-nesting")(),
           require('postcss-responsive-type')(),
           require('lost')(),
