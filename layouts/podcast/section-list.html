@@ -1,7 +1,7 @@
 <li class="o-list__item c-article-list__item" data-ui-component="post-list">
   <div class="o-list__meta c-article-list__colophon">
-    <i class="fa fa-file-text-o"></i> <a href="{{ .Permalink }}">{{ .Title }}</a><br>
-    <time><small> {{ dateFormat "Mon 2 Jan 2006" .PublishDate }}</small></time> 
+    <i class="fa fa-file-text-o"></i> <a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+    <time><small> {{ dateFormat "Mon 2 Jan 2006" .Date }}</small></time> 
   </div>
 </li>
   
