@@ -11,7 +11,7 @@
         <time> {{ .Params.publishdate }}</time>
       </div>
       <div class="o-article__description">
-        {{ .Description | markdownify }}
+        {{ .Content }}
       </div>
       <div class="embed o-article__media">
         {{ partial "soundcloud.html" . }}
