@@ -20,13 +20,26 @@ title = "archive"
 url = "/podcast"
 weight = 2
 [[menu.main]]
+identifier = "archive"
+name = "archive"
+slug = "/archive"
+title = "archive"
+url = "/podcast"
+weight = 2
+[[menu.main]]
+identifier = "home"
+name = "home"
+title = "home"
+url = "/"
+weight = 3
+[[menu.main]]
 identifier = "home"
 name = "home"
 title = "home"
 url = "/"
 weight = 3
 [params]
-PublishDate = "2006-01-02"
+PublishDate = "2006-01-02T00:00:00+00:00"
 author = "Sir Lawrence Davis"
 description = "Welcome to The People's Voice Sports Podcast Website"
 episode = "One"

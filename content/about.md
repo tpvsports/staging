@@ -6,10 +6,9 @@ draft = false
 title = "about"
 type = "page"
 [menu.main]
-weight = 1
+weight = 4
 
 +++
-
 ## Welcome to the The People's Voice Sports Podcast Show.   
 
 ### Hosted by: Sir Lawrence Davis   
